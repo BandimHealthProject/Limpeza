@@ -1,0 +1,15 @@
+_element_key,_element_name,_element_type,_list_child_element_keys
+AGE,AGE,integer,[]
+BEST,BEST,string,[]
+DATE1,DATE1,string,[]
+DATE2,DATE2,string,[]
+DOB,DOB,string,[]
+IMG,IMG,mimeUri,"[""IMG_contentType"",""IMG_uriFragment""]"
+IMG_contentType,contentType,mimeType,[]
+IMG_uriFragment,uriFragment,rowpath,[]
+NAME,NAME,string,[]
+PIZZA,PIZZA,string,[]
+REG,REG,string,[]
+REGVIS,REGVIS,array,"[""REGVIS_items""]"
+REGVIS_items,items,string,[]
+TODAY,TODAY,string,[]
