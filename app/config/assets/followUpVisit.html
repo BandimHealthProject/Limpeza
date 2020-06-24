@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!--Menu-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
+        <link href="css/homescreen.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="commonDefinitions.js"></script>
+        <script type="text/javascript" src="libs/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="libs/jquery-migrate-3.0.0.js"></script>
+        <script type="text/javascript" src="../../system/js/odkCommon.js"></script>
+        <script type="text/javascript" src="../../system/js/odkData.js"></script>
+        <script type="text/javascript" src="../../system/tables/js/odkTables.js"></script>
+        
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/followUpVisit.js"></script>
+        <style>
+        ul {
+            list-style:none;
+        }
+        button.child1 {
+            background-color: powderblue;
+            text-align:left;
+            background-repeat: no-repeat;
+            background-position: 10px;
+            background-size: 30px;
+            padding-left: 55px;
+            margin:10px;
+            height:120px;
+            width:100%;
+            color: black; 
+        }
+        button.child2 {
+            background-color: pink;
+            text-align:left;
+            background-repeat: no-repeat;
+            background-position: 10px;
+            background-size: 30px;
+            padding-left: 55px;
+            margin:10px;
+            height:120px;
+            width:100%;
+            color: black; 
+        }
+        button.FU1 {
+            background-image: url(./img/FU1.png);
+        }
+        button.FU2 {
+            background-image: url(./img/FU2.png);
+        }
+        button.FU3 {
+            background-image: url(./img/FU3.png);
+        }
+        button.FU4 {
+            background-image: url(./img/FU4.png);
+        }
+        button.visited{
+            opacity:.5;
+            background-image: url(./img/checkMarkBlack.png);
+            background-repeat: no-repeat;
+            background-position-x: 10px;
+        }
+        </style>
+    </head>
+
+   
+    <body>
+        <div id="main" class="container" style="height: 100vh;">
+            <h1>Visita</h1>
+            <div class="form-group">
+                <h3><u>Bandim</u></h3>
+                <ul id="fu1" style="padding:20px;">            
+                </ul>
+            </div>
+            <div class="form-group">
+                <h3><u>Belem</u></h3>
+                <ul id="fu2" style="padding:20px;">            
+                </ul>
+            </div>
+            <div class="form-group">
+                <h3><u>Mindera</u></h3>
+                <ul id="fu3" style="padding:20px;">            
+                </ul>
+            </div>
+            <div class="form-group">
+                <h3><u>Cuntum</u></h3>
+                <ul id="fu4" style="padding:20px;">            
+                </ul>
+            </div>
+            <div class="form-group">
+                <h3><u>Bairro Militar</u></h3>
+                <ul id="fu5" style="padding:20px;">            
+                </ul>
+            </div>
+        </div>
+        <script>
+        $(function() {
+            display();
+        });
+        </script>
+    </body>
+</html>
